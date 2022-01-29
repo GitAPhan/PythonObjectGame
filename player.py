@@ -3,14 +3,19 @@ class Player:
         self.rowPosition = intitalRow
         self.columnPosition = initialColumn
 
-    # TODO
-    # def moveUp(self):
+    def moveUp(self):
+        print('moves up')
+        self.rowPosition = self.rowPosition - 1
 
-    # TODO
-    # def moveDown(self):
 
-    # TODO
-    # def moveLeft(self):
+    def moveDown(self):
+        print('moves down')
+        self.rowPosition = self.rowPosition + 1
 
-    # TODO
-    # def moveRight(self):
+    def moveLeft(self):
+        print('moves left')
+        self.columnPosition = self.columnPosition - 1
+
+    def moveRight(self):
+        print('moves right')
+        self.columnPosition = self.columnPosition + 1
